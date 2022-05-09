@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>700</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="MoveL2L1">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>275</y>
+       <width>160</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;--</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MoveL1L2">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>30</y>
+       <width>160</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>--&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SortList1">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>390</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sort 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addElement">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>390</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SortList2">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>390</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sort 2</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="list1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>250</width>
+       <height>450</height>
+      </rect>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAsNeeded</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="list2">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>0</y>
+       <width>250</width>
+       <height>450</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ReverseSortList1">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>345</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Reverse 
+ Sort 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DeleteElement">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>345</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ReverseSortList2">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>345</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Reverse	
+ Sort 2</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
